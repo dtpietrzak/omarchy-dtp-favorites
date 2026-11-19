@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.dtpietrzak.favorites",
+  "name": "DTP favorites",
+  "version": "1.0.0",
+  "author": "dtpietrzak",
+  "license": "MIT",
+  "description": "Your favorite apps as icons in the middle of the bar. Star apps in the DTP app list or the DTP menu to add them.",
+  "kinds": ["bar-widget"],
+  "entryPoints": { "barWidget": "BarWidget.qml" },
+  "barWidget": {
+    "displayName": "Favorites",
+    "description": "An icon for each favorite app; click to open it or a new window of it",
+    "category": "Launcher",
+    "allowMultiple": false,
+    "defaultSection": "center"
+  },
+  "homepage": "https://github.com/dtpietrzak/omarchy-dtp-favorites"
+}
