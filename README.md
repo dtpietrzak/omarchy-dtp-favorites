@@ -18,7 +18,7 @@ The shell plugin id is `io.github.dtpietrzak.favorites`.
 { "version": 1, "apps": ["org.gnome.Nautilus", "chromium", "com.mitchellh.ghostty"] }
 ```
 
-The ids are desktop entry names without `.desktop`, in the order shown on the bar (a newly starred app goes on the end). When the file does not exist the first plugin to load writes the defaults: Files, Chromium and your default terminal (`xdg-terminal-exec --print-id`, which is what `omarchy default terminal` sets). Delete the file to get the defaults back. An app that is not installed is kept in the file but not shown.
+The ids are desktop entry names without `.desktop`, in the order shown on the bar (a newly starred app goes on the end). When the file does not exist this bar widget writes the defaults: Files, Chromium and your default terminal (`xdg-terminal-exec --print-id`, which is what `omarchy default terminal` sets). The app lists never write defaults: without the file they show no favorites, and the first star creates the file with just that app. Delete the file to get the defaults back. An app that is not installed is kept in the file but not shown.
 
 ## Install
 

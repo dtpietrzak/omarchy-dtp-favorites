@@ -38,6 +38,7 @@ BarWidget {
 
   FavoritesStore {
     id: store
+    seedDefaults: true
     onAppsChanged: root.rebuild()
   }
 

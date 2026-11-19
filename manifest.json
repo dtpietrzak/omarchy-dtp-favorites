@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "io.github.dtpietrzak.favorites",
   "name": "DTP favorites",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "dtpietrzak",
   "license": "MIT",
   "description": "Your favorite apps as icons in the middle of the bar. Star apps in the DTP app list or the DTP menu to add them.",
